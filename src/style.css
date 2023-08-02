@@ -4,8 +4,12 @@
 }
 
 .container {
-    margin: 5% 25%;
+    margin: 5% 20%;
 } 
+
+.showScore, .addScore {
+    padding: 1rem;
+}
 
 .showScoreTitle {
     display: flex;
@@ -30,8 +34,9 @@
 }
 
 li:nth-child(even) {
-    background-color: antiquewhite;
+    background-color:wheat;
   }
+
 
 .body {
     display: flex;
