@@ -1,5 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: Calibri, 'Trebuchet MS', sans-serif
+}
 
-/* just for test */
-h1 {
-    background-color: bisque;
+.container {
+    margin: 5% 25%;
+} 
+
+.showScoreTitle {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    min-height: auto;
+}
+
+.nameList {
+    border: 2px solid #000;
+    padding: 0;
+}
+
+.nameList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nameList ul li {
+    padding: 4px;
+}
+
+li:nth-child(even) {
+    background-color: antiquewhite;
+  }
+
+.body {
+    display: flex;
+    gap: 3rem;
+    margin: 3rem;
+}
+
+.button {
+    float: right;
+    border: 2px solid black;
+    padding: 0.2rem 0.5rem;
+    font-weight: bold;
+    box-shadow: 2px 2px #000;
+    cursor: pointer;
+}
+
+input[type=text] {
+    border: 2px solid #000;
+    padding: 0.2rem 0.5rem;
+}
+
+::placeholder {
+    color: #777
 }
