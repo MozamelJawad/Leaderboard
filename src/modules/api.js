@@ -3,22 +3,22 @@ const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/game
 const list = document.querySelector('.list');
 
 const addScore = async (score) => {
-    await fetch(url, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(score),
-    });
+  await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(score),
+  });
 };
 
 const displayList = (scores) => {
-    list.innerHTML = '';
-    scores.forEach((score) => {
-        list.innerHTML += `
+  list.innerHTML = '';
+  scores.forEach((score) => {
+    list.innerHTML += `
             <li>${score.user}: ${score.score}</li>
         `;
-    });
+  });
 };
 
-export {addScore, displayList, url};
+export { addScore, displayList, url };
