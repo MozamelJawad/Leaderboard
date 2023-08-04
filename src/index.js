@@ -8,10 +8,11 @@ const refreshBtn = document.querySelector('#refreshBtn');
 
 const AddNameScore = async (event) => {
   event.preventDefault();
-  if (!name.value || !score.value) return;
-  await addScore({ user: name.value, score: score.value });
-  name.value = '';
-  score.value = '';
+  if (name.value.trim() && score.value.trim()) {
+    await addScore({ user: name.value, score: score.value });
+    name.value = '';
+    score.value = '';
+  }
 };
 
 const displayNameScore = async () => {
