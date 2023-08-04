@@ -43,7 +43,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- live demo will come soon
+- [Live Demo](https://mozameljawad.github.io/Leaderboard/dist/)
 
 ##
 
