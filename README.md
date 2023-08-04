@@ -51,6 +51,10 @@
 
 ### Key Features <a name="key-features"></a>
 
+- **linter implementation**
+- **webpack implementation**
+- **ES6 Module**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
