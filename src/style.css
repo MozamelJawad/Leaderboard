@@ -7,7 +7,8 @@
   margin: 5% 15%;
 }
 
-header, h2 {
+header,
+h2 {
   color: #1c4dc0;
 }
 
@@ -45,7 +46,7 @@ header, h2 {
 }
 
 .nameList ul li:hover {
-  background-color:#6480c0;
+  background-color: #6480c0;
   color: #ff9;
 }
 
