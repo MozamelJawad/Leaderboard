@@ -1,4 +1,4 @@
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/CA9BacAIsMnHU3Pr1jXf/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/B0mu7sU9pBCPIqrAki95/scores/';
 
 const list = document.querySelector('.list');
 
